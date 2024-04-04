@@ -72,6 +72,9 @@ export const DetailsContent = styled.div`
         line-height: normal;
         color: #666666;
     }
+	.mourner {
+		top: -2px;
+	}
     span{
         display: block;
         margin-bottom: 10px;
@@ -87,8 +90,8 @@ export const DetailsContent = styled.div`
             color:#B4966B;
             text-decoration:none;
             margin-left:10px;
-            position:absolute;
-            top:-4px;
+            position:relative;
+            top:-1.5px;
             right:0px;
             i {
                 display:inline-block;

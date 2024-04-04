@@ -422,12 +422,12 @@ const Details = (props) => {
 													<p>{item ? item : ''}</p>
 												</Col>
 												<Col flex="3">
-													<span>
+													<span className="mourner">
 														{item
 															? obi_mourner.map((name_item, key) => {
 																	return item == name_item.relation ? (
 																		<>
-																			{(com++ ? ', ' : '') + name_item.name}
+																			{(com++ ? ' , ' : '') + name_item.name}
 																			{name_item.phone ? (
 																				<a href={'tel:' + name_item.phone}>
 																					<i></i>
